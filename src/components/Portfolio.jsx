@@ -1,4 +1,5 @@
-import Card from "./Card";
+import { Testimg } from "../data";
+import { Shopper } from "../data.js";
 
 const Portfolio = () => {
   return (
@@ -8,7 +9,7 @@ const Portfolio = () => {
           <div className="col-lg-6 col-md-8 mx-auto">
             <h1 className="text-2xl font-bold text-[#f49eac]">Portfolio</h1>
             <p>
-              <a href="#" className="btn btn-primary my-2">
+              <a href="#Contact" className="btn btn-primary my-2">
                 Hire Me
               </a>
             </p>
@@ -19,9 +20,86 @@ const Portfolio = () => {
       <div className="album py-5 ">
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <Card />
-            <Card />
-            <Card />
+            <div className="col">
+              <div className="card shadow-sm">
+                <div className="h-[225px] w-full">
+                  <img
+                    className="bg-cover bg-center h-full card-img-top"
+                    src={Shopper}
+                  />
+                </div>
+                <div className="card-body">
+                  <p className="card-text">Placeholder Text</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a href="https://codeis1.github.io/E-commerce/">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View Site
+                        </button>
+                      </a>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card shadow-sm">
+                <div className="h-[225px] w-full">
+                  <img
+                    className="bg-cover bg-center h-full card-img-top"
+                    src={Testimg}
+                  />
+                </div>
+                <div className="card-body">
+                  <p className="card-text">Placeholder Text</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a href="https://codeis1.github.io/E-commerce/">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View Site
+                        </button>
+                      </a>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card shadow-sm">
+                <div className="h-[225px] w-full">
+                  <img
+                    className="bg-cover bg-center h-full card-img-top"
+                    src={Testimg}
+                  />
+                </div>
+                <div className="card-body">
+                  <p className="card-text">Placeholder Text</p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a href="https://codeis1.github.io/E-commerce/">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View Site
+                        </button>
+                      </a>
+                    </div>
+                    <small className="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -41,9 +41,11 @@ const HeroSection = () => {
             </div>
 
             <div className="d-grid mt-3 gap-2 d-md-flex justify-content-md-start">
-              <Button className="rounded text-sm" color="blue">
-                Hire Me
-              </Button>
+              <a href="#Contact">
+                <Button className="rounded text-sm" color="blue">
+                  Hire Me
+                </Button>
+              </a>
             </div>
           </div>
         </div>
