@@ -1,4 +1,3 @@
-import { Testimg } from "../data";
 import { Shopper } from "../data.js";
 
 const Portfolio = () => {
@@ -28,8 +27,10 @@ const Portfolio = () => {
                     src={Shopper}
                   />
                 </div>
-                <div className="card-body">
-                  <p className="card-text">Placeholder Text</p>
+                <div className="card-body h-[200px]">
+                  <p className="card-text">
+                    Frontend E-commerce website, visit page.
+                  </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <a href="https://codeis1.github.io/E-commerce/">
@@ -41,61 +42,6 @@ const Portfolio = () => {
                         </button>
                       </a>
                     </div>
-                    <small className="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card shadow-sm">
-                <div className="h-[225px] w-full">
-                  <img
-                    className="bg-cover bg-center h-full card-img-top"
-                    src={Testimg}
-                  />
-                </div>
-                <div className="card-body">
-                  <p className="card-text">Placeholder Text</p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <a href="https://codeis1.github.io/E-commerce/">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          View Site
-                        </button>
-                      </a>
-                    </div>
-                    <small className="text-body-secondary">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card shadow-sm">
-                <div className="h-[225px] w-full">
-                  <img
-                    className="bg-cover bg-center h-full card-img-top"
-                    src={Testimg}
-                  />
-                </div>
-                <div className="card-body">
-                  <p className="card-text">Placeholder Text</p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <a href="https://codeis1.github.io/E-commerce/">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          View Site
-                        </button>
-                      </a>
-                    </div>
-                    <small className="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>

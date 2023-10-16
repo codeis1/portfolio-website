@@ -3,5 +3,6 @@ import Myimg2 from "./assets/images/Myimg2.jpg";
 import Aboutimg from "./assets/images/Aboutimg.jpeg";
 import Testimg from "./assets/images/testimg.jpeg";
 import Shopper from "./assets/images/E-commerce.png";
+import Dartmedia from "./assets/images/Dartmedia.png"
 
-export { Logo, Myimg2, Aboutimg, Testimg, Shopper };
+export { Logo, Myimg2, Aboutimg, Testimg, Shopper, Dartmedia };
