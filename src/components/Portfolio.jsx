@@ -1,4 +1,5 @@
 import { Shopper } from "../data.js";
+import { Dartmedia } from "../data.js";
 
 const Portfolio = () => {
   return (
@@ -34,6 +35,34 @@ const Portfolio = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <a href="https://codeis1.github.io/E-commerce/">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View Site
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card shadow-sm">
+                <div className="h-[225px] w-full">
+                  <img
+                    className="bg-cover bg-center h-full card-img-top"
+                    src={Dartmedia}
+                  />
+                </div>
+                <div className="card-body h-[200px]">
+                  <p className="card-text">
+                    Dart is a Frontend social media web app.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a href="https://dart-nu.vercel.app/">
                         <button
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
