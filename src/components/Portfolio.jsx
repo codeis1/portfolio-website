@@ -28,21 +28,21 @@ const Portfolio = () => {
                     src={Shopper}
                   />
                 </div>
-                <div className="card-body h-[200px]">
+                <div className="card-body h-[100px]">
                   <p className="card-text">
                     Frontend E-commerce website, visit page.
                   </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <a href="https://codeis1.github.io/E-commerce/">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          View Site
-                        </button>
-                      </a>
-                    </div>
+                </div>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group mb-2 ml-2">
+                    <a href="https://codeis1.github.io/E-commerce/">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View Site
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -56,21 +56,21 @@ const Portfolio = () => {
                     src={Dartmedia}
                   />
                 </div>
-                <div className="card-body h-[200px]">
+                <div className="card-body h-[100px]">
                   <p className="card-text">
                     Dart is a Frontend social media web app.
                   </p>
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="btn-group">
-                      <a href="https://dart-nu.vercel.app/">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          View Site
-                        </button>
-                      </a>
-                    </div>
+                </div>
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="btn-group mb-2 ml-2">
+                    <a href="https://dart-nu.vercel.app/">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View Site
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
