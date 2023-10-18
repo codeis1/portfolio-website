@@ -30,7 +30,8 @@ const Portfolio = () => {
                 </div>
                 <div className="card-body h-[100px]">
                   <p className="card-text">
-                    Frontend E-commerce website, visit page.
+                    Front-end ecommerce website, this website was build using
+                    Html, CSS, and React.
                   </p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
@@ -58,7 +59,8 @@ const Portfolio = () => {
                 </div>
                 <div className="card-body h-[100px]">
                   <p className="card-text">
-                    Dart is a Frontend social media web app.
+                    Dart is a front-end social media web app, this website was
+                    build using Html, Tailwind CSS and React.
                   </p>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
