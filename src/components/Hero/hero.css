@@ -1,0 +1,38 @@
+.text-one {
+  font-size: 48px;
+}
+
+.text-two {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1930px) {
+}
+
+@media screen and (max-width: 1536px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .text-one {
+    font-size: 40px;
+  }
+
+  .text-two {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 420px) {
+}
+
+@media screen and (max-width: 330px) {
+}

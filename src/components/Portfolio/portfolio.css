@@ -1,0 +1,130 @@
+.p-top-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.p-bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.card {
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.img-cont {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cont .wrapper {
+  width: 250px;
+  height: 220px;
+  border-radius: 1px solid black;
+  border-radius: 30px;
+}
+
+.img-cont .wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card .title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .title span {
+  color: black;
+}
+
+.card-bottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.card-bottom .item {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1930px) {
+}
+
+@media screen and (max-width: 1536px) {
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+  .img-cont .wrapper {
+    width: 230px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .p-top-container {
+    height: auto;
+    padding: 0 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p-top-container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .p-top-container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  
+}
+
+@media screen and (max-width: 330px) {
+}

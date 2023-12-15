@@ -1,0 +1,150 @@
+.about-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.about-img-cont {
+  min-width: 340px;
+  height: 340px;
+  border-radius: 40px;
+}
+
+.about-container section {
+  text-align: center;
+}
+
+.about-info-container {
+  max-width: 46rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1930px) {
+}
+
+@media screen and (max-width: 1536px) {
+  .about-container {
+    padding: 0 100px;
+  }
+  .about-info-container {
+    width: 40rem;
+    row-gap: 20px;
+  }
+  .info-container {
+    width: 340px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .about-container {
+    padding: 0 80px;
+  }
+  .about-bt-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+.text-box {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    height: auto;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+  }
+  .about-container section {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container section {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-info-container {
+    width: 100%;
+    row-gap: 20px;
+  }
+  .about-img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+  }
+
+  .about-img-cont img {
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+  }
+
+  .about-title {
+    margin-bottom: 30px;
+  }
+  .about-container section {
+    padding: 10px 0 50px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .info-container {
+    width: 100%;
+    height: 130px;
+  }
+  .about-img-cont {
+    width: 10px;
+    height: 200px;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .about-container {
+    padding: 0 8px;
+  }
+  .info-container {
+    width: 200px;
+    height: 130px;
+  }
+  .about-img-cont {
+    width: 20px;
+    height: 200px;
+  }
+}

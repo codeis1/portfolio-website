@@ -8,14 +8,14 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #8a2be2;
+  font-size: 18px;
 }
 
 .hero-img {
-  width: 400px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
 }
@@ -36,6 +36,13 @@ body {
   align-content: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .form-section {
+    height: auto;
+    margin-bottom: 200px;
+  }
+}
+
 .form-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -48,9 +55,6 @@ body {
   .form-container {
     width: 400px;
     margin-top: 20px;
-  }
-  .about-title {
-    margin-bottom: 20px;
   }
 }
 
@@ -442,6 +446,17 @@ body {
 
 /* Footer styles */
 .footer-container {
-  background-image: url(../src/assets/images/footerimg.jpg);
+  width: 100%;
+  background-image: url();
+  background-color: black;
   object-fit: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-img {
+    width: 300px;
+    height: 300px;
+  }
 }
