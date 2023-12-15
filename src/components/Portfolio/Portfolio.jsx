@@ -9,7 +9,7 @@ const Portfolio = () => {
       </div>
 
       <div className="p-bottom">
-        <div className="card">
+        {/* <div className="card">
           <div className="img-cont">
             <div className="wrapper">
               <img src="/src/assets/images/Dartmedia.png" alt="project image" />
@@ -26,7 +26,7 @@ const Portfolio = () => {
               <div className="item">Live Demo</div>
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="card">
           <div className="img-cont">
@@ -41,13 +41,13 @@ const Portfolio = () => {
             <a href="https://github.com/codeis1/fullstack-todo-app-lesson-frontend">
               <div className="item">GitHub</div>
             </a>
-            <a href="https://bright-lily-6dccfb.netlify.app/">
+            <a href="https://eclectic-taiyaki-2b6bfe.netlify.app">
               <div className="item">Live Demo</div>
             </a>
           </div>
         </div>
 
-        <div className="card">
+        {/* <div className="card">
           <div className="img-cont">
             <div className="wrapper">
               <img src="/src/assets/images/Dartmedia.png" alt="project image" />
@@ -64,9 +64,9 @@ const Portfolio = () => {
               <div className="item">Live Demo</div>
             </a>
           </div>
-        </div>
+        </div> */}
 
-        <div className="card">
+        {/* <div className="card">
           <div className="img-cont">
             <div className="wrapper">
               <img src="/src/assets/images/Dartmedia.png" alt="project image" />
@@ -83,7 +83,7 @@ const Portfolio = () => {
               <div className="item">Live Demo</div>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
