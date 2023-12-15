@@ -31,7 +31,11 @@ const Portfolio = () => {
         <div className="card">
           <div className="img-cont">
             <div className="wrapper">
-              <img src="/src/assets/images/todoapp.png" alt="project image" />
+              <img
+                src="/src/assets/images/todoapp.png"
+                alt="project image"
+                loading="eager"
+              />
             </div>
           </div>
           <div className="title">
