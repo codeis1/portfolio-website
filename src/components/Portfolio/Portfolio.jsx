@@ -1,4 +1,5 @@
 import "./portfolio.css";
+import { TodoImg } from "../../data";
 
 const Portfolio = () => {
   return (
@@ -31,15 +32,14 @@ const Portfolio = () => {
         <div className="card">
           <div className="img-cont">
             <div className="wrapper">
-              <img
-                src="/src/assets/images/todoimg.png"
-                alt="project image"
-                loading="eager"
-              />
+              <img src={TodoImg} alt="project image" loading="eager" />
             </div>
           </div>
           <div className="title">
             <span>ToDo List App</span>
+          </div>
+          <div>
+            <p>A simple mern stack todo List web app</p>
           </div>
           <div className="card-bottom">
             <a href="https://github.com/codeis1/fullstack-todo-app-lesson-frontend">

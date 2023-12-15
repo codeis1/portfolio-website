@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div className="text-box">
             <p>
-              I am Ravol Ashmeade a junior frontend developer, when am not
+              I am Ravol Ashmeade a junior full stack developer, when am not
               coding my side hobbies are playing football, gaming and watching
               movies, space exploration gets me excited too. Elon Musk is my
               inspiration to become a great force in the field of technology.
