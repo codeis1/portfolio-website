@@ -24,7 +24,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
+  border: 1px solid rgba(255, 142, 121);
   border-radius: 20px;
   padding: 15px 10px;
 }
@@ -97,7 +97,6 @@
 @media screen and (max-width: 1280px) {
   .card {
     width: 250px;
-    height: 350px;
   }
   .img-cont .wrapper {
     width: 230px;

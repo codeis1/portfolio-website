@@ -27,10 +27,10 @@ const HeroSection = () => {
             </div>
 
             <div className="flex gap-1 text-[black] text-2xl">
-              <span className="text-2xl text-[black]">A</span>
+              <span className="text-[black]">A</span>
               <Typewriter
                 options={{
-                  strings: ["Frontend Developer"],
+                  strings: ["Full Stack Developer"],
                   autoStart: true,
                   loop: true,
                 }}
